@@ -1,0 +1,39 @@
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+# Dropbox settings and caches
+.dropbox
+.dropbox.attr
+.dropbox.cache
+
+
+### Sass ###
+.sass-cache/
+*.css.map
+
+.settings/
+.vscode/
+node_modules
