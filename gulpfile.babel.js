@@ -32,7 +32,7 @@ gulp.task('js',gulp.series(
     function js(){
         return  gulp.src('./src/js/*.js')
         .pipe(babel({
-                presets: ['env']
+                presets: ["@babel/preset-env"]
             }))
         .pipe(concat('app.js'))
         .pipe(uglify())
